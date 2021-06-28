@@ -1,0 +1,16 @@
+//Buttons
+
+.primary-button{
+    background-color: $snow;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    box-shadow: none;
+    font-family: $raleway;
+    font-weight: $bold;
+    font-size: 2rem;
+    padding: 0.5rem 3rem;
+    color: $granite-gray;
+    border: none;
+}

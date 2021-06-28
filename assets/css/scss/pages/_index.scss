@@ -1,3 +1,99 @@
-footer{
+.header{
+    height: 5rem;
+    background-color: $white;
+    padding-left: 3rem;
+    display: flex;
+    align-items: center;
+    &__logo{
+        height: 3rem;
+        width: auto;
+    }
+}
+.main{
+    height:30rem;
+    background-color: $jelly-bean;
+    text-align: center;
+    padding-top: 20rem;
+    color: white;
+    &__title{
+        font-family: $raleway;
+        font-weight: $extra-light;
+        font-size: 4rem;
+    }
+    &__subtitle{
+        font-family: $raleway;
+        font-weight: bold;
+        font-size: 5rem;
+    }
+}
+.info-container-one{
+    text-align: center;
+    font-family: $raleway;
+    padding-top: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    color: $granite-gray;
+}
+.info-container-two{
+    text-align: center;
+    font-family: $raleway;
+    padding-bottom: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    color: $granite-gray;
+}
+.text-container{
+    padding: 5rem 10rem;
+    text-align: justify;
+}
+.about-us-container,.contact,.footer{
+    padding: 5rem 10rem;
+    text-align: center;
+    font-family: $raleway;
+}
+.history{
+    background-color: $taupe-gray;
+    color: white;
+    padding-top: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    text-align: center;
+    font-family: $raleway;
+}
+.origin{
+    color: $granite-gray;
+    padding-top: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    text-align: center;
+    font-family: $raleway;
+}
+.contact{
+    &__title{
+        color: $white;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+}
+.about-us-container,.contact{
+    background-color: $jelly-bean;
+}
+.about-us{
+    &__title{
+        color: white;
+        font-size: 4rem;
+    }
+}
+.footer{
     background-color: $granite-gray;
+    &__logo{
+        width: 10rem;
+        height: auto;
+    }
+    }
+h3{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: $bold;
+    text-align: center;
 }
